@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:antiquewhite;
+
+}
+
+header {
+    color:white;
+    padding: 20px;  
+    background-color:darkblue;   
+}
+
+img {
+        max-width: 100%;
+        height: auto; 
+        display: block;
+        margin: 20px auto;
+        border-radius: 10px;
+        transition: transform 0.3s, box-shadow 0.3s;
+}
+
+img:hover {
+    transform: scale(1.05); /* zoom leve */
+    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.64);  
+}
+
+h2 {
+    color:darkblue;
+}
+
